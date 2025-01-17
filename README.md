@@ -1,34 +1,43 @@
-# Option Pricing Model
+# Financial Models Repository
 
-This Python-based model calculates the value of a natural gas storage contract. It incorporates injection and withdrawal schedules, associated costs, and market price fluctuations to estimate the net value of the contract.
+This repository contains three financial modeling projects designed to address key challenges in the finance domain:
+
+1. **Option Pricing Model** - Calculates the net value of natural gas storage contracts.
+2. **Loan Default Prediction Model** - Predicts the likelihood of loan defaults based on borrower features.
+3. **FICO Bucket Classifier Model** - Classifies credit scores into predefined buckets to assess creditworthiness.
 
 ---
 
 ## Table of Contents
+
 - [Features](#features)
 - [Requirements](#requirements)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Parameters](#parameters)
-- [Example](#example)
+- [Models](#models)
+  - [Option Pricing Model](#1-option-pricing-model)
+  - [Loan Default Prediction Model](#2-loan-default-prediction-model)
+  - [FICO Bucket Classifier Model](#3-fico-bucket-classifier-model)
 - [License](#license)
+- [Contributing](#contributing)
 
 ---
 
 ## Features
 
-- Handles gas injection and withdrawal schedules.
-- Tracks storage costs, injection/withdrawal costs, and transportation costs.
-- Calculates the net contract value based on given inputs and price data.
-- Provides a robust error-checking mechanism for missing price data.
+- **Option Pricing Model:** Incorporates injection/withdrawal schedules, market prices, and associated costs to determine storage contract value.
+- **Loan Default Prediction Model:** Leverages machine learning algorithms to predict the risk of default based on borrower attributes.
+- **FICO Bucket Classifier Model:** Categorizes credit scores into buckets for simplified credit risk assessment.
 
 ---
 
 ## Requirements
 
-- Python 3.9 or higher
+- Python 3.7 or higher
 - Required libraries:
   - `pandas`
+  - `scikit-learn`
+  - `numpy`
+  - `matplotlib` (for visualizations)
 
 ---
 
@@ -36,5 +45,5 @@ This Python-based model calculates the value of a natural gas storage contract. 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo/option-pricing-model.git
-   cd option-pricing-model
+   git clone https://github.com/your-repo/financial-models.git
+   cd financial-models
